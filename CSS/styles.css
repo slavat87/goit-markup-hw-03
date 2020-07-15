@@ -3,11 +3,11 @@ html {
   box-sizing: border-box;
 }
 
-*,
+/**,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+}*/
 
 /* основний колір тексту #212121; */
 /* другий колір тексту #ffffff;*/
@@ -45,6 +45,15 @@ h2 {
   text-align: center;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 /* Логотип */
 .logo {
   font-family: Raleway;
@@ -72,6 +81,9 @@ ul {
 /*Забирає точки в певних списках*/
 .list {
   list-style: none;
+  /*заберає відступи в списках*/
+  padding: 0;
+  margin: 0;
 }
 
 /*Підкреслення ссилок*/
@@ -79,7 +91,7 @@ a {
   text-decoration: none;
 }
 
-/* Розмітка шапки */
+/*Розмітка шапки */
 
 .site-menu {
   font-weight: 500;
@@ -116,20 +128,31 @@ a {
 /* Банер */
 .banner {
   background-color: rgba(47, 48, 58, 0.8);
+  text-align: center;
 }
 
 .banner-title {
+  margin-top: 0px;
+  margin-bottom: 30px;
+
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 /* Особливості */
+.features ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .features p {
+  margin-top: 0;
+  margin-bottom: 0;
+
   color: var(--third-text-color);
   font-weight: normal;
   font-size: 14px;
@@ -137,6 +160,9 @@ a {
 }
 
 .features h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
@@ -144,6 +170,10 @@ a {
 }
 
 /* Чим ми займаємося */
+.perform h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
 
 .perform h3 {
   color: var(--second-text-color);
@@ -156,25 +186,60 @@ a {
   text-transform: uppercase;
 }
 
+.perform ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Наша команда */
 .team p {
   color: var(--third-text-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
+
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .team h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.team h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.team ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Постійні клієнти */
+.clients {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
 .clients a:hover,
 .clients a:focus {
   background-color: var(--accent-color);
 }
+
+.clients ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.clients h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
 
 /*Розмітка footer*/
 .footer {
@@ -220,6 +285,7 @@ strong {
 .button {
   color: var(--second-text-color);
   background-color: var(--accent-color);
+  min-width: 200px;
 
   font-family: inherit;
   font-weight: bold;
@@ -228,6 +294,13 @@ strong {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  /* перетворення в рядково-блочний ел*/
+  display: inline-block;
+  /* заокруглення кнопки*/
+  border-radius: 4px;
+  /* відступи від тексту*/
+  padding: 10px 32px;
+  text-align: center;
 }
 
 /*.button secondary {*/

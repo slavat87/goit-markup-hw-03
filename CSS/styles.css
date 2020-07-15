@@ -1,3 +1,14 @@
+/* Задаємо box-sizing контенту на сторінці */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* основний колір тексту #212121; */
 /* другий колір тексту #ffffff;*/
 /*третій колір тексту #757575;*/
@@ -23,6 +34,8 @@ body {
   font-family: Roboto;
   font-weight: normal;
   letter-spacing: 0.03em;
+
+  margin: 0;
 }
 
 h2 {

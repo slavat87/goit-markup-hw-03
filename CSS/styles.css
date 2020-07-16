@@ -48,7 +48,7 @@ h2 {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid tomato;
@@ -101,8 +101,20 @@ a {
 }
 
 /* site-nav */
+.site-nav {
+  display: flex;
+}
+
 .site-nav a {
   color: var(--primary-text-color);
+}
+
+.site-nav li {
+  margin-right: 50px;
+}
+
+.site-nav li:last-child {
+  margin-right: 0px;
 }
 
 .site-nav a:hover,

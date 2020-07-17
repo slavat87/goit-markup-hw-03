@@ -96,7 +96,7 @@ a {
 }
 
 /*Розмітка шапки */
-.header-nav {
+.nav-wrapper {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -187,6 +187,7 @@ a {
 .features-list {
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
   display: flex;
 }
 
@@ -221,6 +222,22 @@ a {
 }
 
 /* Чим ми займаємося */
+.perform-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.perform-list .item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.perform-list .item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .perform h2 {
   margin-top: 0;
   margin-bottom: 50px;
@@ -235,14 +252,26 @@ a {
   line-height: 1.1;
   text-align: center;
   text-transform: uppercase;
-}
-
-.perform ul {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 94px;
 }
 
 /* Наша команда */
+.team-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.team-list .item {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.team-list .item:nth-child(4n) {
+  margin-right: 0;
+}
+
 .team p {
   color: var(--third-text-color);
   font-weight: normal;
@@ -263,19 +292,31 @@ a {
 }
 
 .team h2 {
+  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
-}
-
-.team ul {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 /* Постійні клієнти */
 .clients {
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.clients-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+.clients-list .item {
+  /*width: 270px;*/
+  margin-right: 30px;
+}
+
+.clients-list .item:nth-child(6n) {
+  margin-right: 0;
 }
 
 .clients a:hover,
@@ -289,6 +330,7 @@ a {
 }
 
 .clients h2 {
+  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
 }

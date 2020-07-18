@@ -124,18 +124,12 @@ a {
   color: var(--primary-text-color);
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
-/*.site-nav .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}*/
-
-.site-nav li {
+.site-nav .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -247,6 +241,7 @@ a {
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .perform-list .item {
@@ -281,11 +276,11 @@ a {
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .team-list .item {
   width: 270px;
-  margin-right: 30px;
 }
 
 .team-list .item:nth-child(4n) {
@@ -320,7 +315,6 @@ a {
 /* Постійні клієнти */
 .clients {
   margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .clients-list {
@@ -328,11 +322,11 @@ a {
   margin-bottom: 0;
   padding-left: 0;
   display: flex;
+  justify-content: space-between;
 }
 
 .clients-list .item {
-  /*width: 270px;*/
-  margin-right: 30px;
+  width: 170px;
 }
 
 .clients-list .item:nth-child(6n) {
@@ -472,11 +466,12 @@ strong {
   padding-left: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio .item {
   width: 370px;
-  margin-right: 30px;
+  padding: 0;
 }
 
 .portfolio .item:nth-child(3n) {

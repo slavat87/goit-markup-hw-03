@@ -15,7 +15,7 @@ html {
 /*четвертий колір тексту rgba(255, 255, 255, 0.6);*/
 /*колір заливки і ховера #2196f3;*/
 /*основний колір фону */
-/*другий фон*/
+/*другий фон #F5F4FA;*/
 /*фон футера #2F303A;*/
 
 :root {
@@ -24,6 +24,7 @@ html {
   --third-text-color: #757575;
   --fourth-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --second-bg-color: #f5f4fa;
 }
 
 body {
@@ -96,6 +97,7 @@ a {
 }
 
 /*Розмітка шапки */
+
 .nav-wrapper {
   display: flex;
   align-items: center;
@@ -103,15 +105,12 @@ a {
 }
 
 /* site-nav */
-.site-menu {
+.site-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-}
 
-/* site-nav */
-.site-nav {
   display: flex;
   margin-left: 85px;
 }
@@ -120,23 +119,28 @@ a {
   color: var(--primary-text-color);
 }
 
-.site-nav .link {
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+
+/*.site-nav .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
+}*/
 
 .site-nav li {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   margin-right: 50px;
+  display: flex;
 }
 
 .site-nav li:last-child {
   margin-right: 0px;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--accent-color);
 }
 
 /* Підсвітка теперішньої сторінки */
@@ -150,10 +154,17 @@ a {
   margin-left: auto;
 }
 
-.contact .link {
+.contact li {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  margin-right: 30px;
+  display: flex;
+}
+
+.contact li:last-child {
+  margin-right: 0px;
 }
 
 .contact a {
@@ -163,6 +174,10 @@ a {
 .contact a:hover,
 .contact a:focus {
   color: var(--accent-color);
+}
+
+.contact span {
+  margin-left: 10px;
 }
 
 /* Банер */
@@ -324,11 +339,6 @@ a {
   background-color: var(--accent-color);
 }
 
-.clients ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .clients h2 {
   padding-top: 94px;
   margin-top: 0;
@@ -398,31 +408,71 @@ strong {
   text-align: center;
 }
 
-/*.button secondary {*/
-.button.secondary {
-  color: var(--primary-text-color);
-  background-color: #f5f4fa;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-}
-
-/*.button.secondary li:hover,
-.button.secondary li:focus {
-  color: var(--primary-text-color);
-}*/
-
-/* Так працює, а так як вище ні */
-/*.button-secondary li:hover,
-.button-secondary li:focus {
-  color: var(--second-text-color);
-  background-color: var(--accent-color);
-}*/
-
 /*-- Сторінка PORTFOLIO --*/
 
 /* Портфоліо */
+.portfolio-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  /* перетворення в FLEX контейнер(стаютьв оду лінію)*/
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+}
+
+.portfolio-nav .item {
+  background-color: var(--second-bg-color);
+  margin-right: 8px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+
+  /* перетворення в рядково-блочний ел*/
+  display: inline-block;
+  /* заокруглення кнопки*/
+  border-radius: 4px;
+  /* відступи від тексту*/
+  padding: 6px 22px;
+  text-align: center;
+}
+
+.portfolio-nav .item:last-child {
+  margin-right: 0px;
+}
+
+.portfolio-nav a {
+  color: var(--primary-text-color);
+}
+
+.portfolio-nav a:hover,
+.portfolio-nav a:focus {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+
+/*.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}*/
+
+.portfolio {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio .item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.portfolio .item:nth-child(3n) {
+  margin-right: 0;
+}
 
 .portfolio .portfolio-description {
   color: var(--second-text-color);
@@ -454,9 +504,4 @@ strong {
 
   margin-top: 0;
   margin-bottom: 10px;
-}
-
-.portfolio {
-  margin-top: 0;
-  margin-bottom: 0;
 }

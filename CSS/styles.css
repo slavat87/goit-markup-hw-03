@@ -450,10 +450,14 @@ strong {
   color: var(--primary-text-color);
 }
 
-.portfolio-nav a:hover,
-.portfolio-nav a:focus {
-  color: var(--second-text-color);
+.portfolio-nav .item:hover,
+.portfolio-nav .item:focus {
   background-color: var(--accent-color);
+}
+
+.portfolio-nav .item:hover a,
+.portfolio-nav .item:focus a {
+  color: var(--second-text-color);
 }
 
 /*.site-nav .link {

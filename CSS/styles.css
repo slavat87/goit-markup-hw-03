@@ -381,7 +381,9 @@ a {
 /*Розмітка footer*/
 .footer {
   background-color: #2f303a;
+}
 
+.footer .footer-general {
   padding-left: 0;
   margin-left: 0;
 

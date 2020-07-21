@@ -302,7 +302,6 @@ a {
 .team-list {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: ;
   padding-left: 0;
   padding-bottom: 94px;
   display: flex;
@@ -382,6 +381,18 @@ a {
 /*Розмітка footer*/
 .footer {
   background-color: #2f303a;
+
+  padding-left: 0;
+  margin-left: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .logo-address {
+  width: 270px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .addrress {
@@ -413,11 +424,23 @@ strong {
 }
 
 /* Приєднуйтесь */
+.footer .footer-uppercase {
+  width: 270px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .uppercase {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
+}
+
+.footer .subscription {
+  width: 570px;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 /* button (базовий стиль)*/

@@ -201,13 +201,14 @@ a {
 
 /* Особливості */
 .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .features-list {
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 94px;
   padding-left: 0;
   display: flex;
   justify-content: space-between;
@@ -243,13 +244,15 @@ a {
 
 /* Чим ми займаємося */
 .perform {
-  padding-bottom: 94px;
+  /*padding-bottom: 94px;*/
+  margin-bottom: 0;
 }
 
 .perform-list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  padding-bottom: 94px;
   display: flex;
   justify-content: space-between;
 }
@@ -264,6 +267,7 @@ a {
 }
 
 .perform h2 {
+  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -286,13 +290,14 @@ a {
 /* Наша команда */
 .team {
   background-color: var(--second-bg-color);
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 
 .team-list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  padding-bottom: 94px;
   display: flex;
   justify-content: space-between;
 }
@@ -336,13 +341,14 @@ a {
 /* Постійні клієнти */
 .clients {
   margin-top: 0;
-  padding-bottom: 94px;
+  padding-bottom: 0;
 }
 
 .clients-list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  padding-bottom: 94px;
   display: flex;
   justify-content: space-between;
 }

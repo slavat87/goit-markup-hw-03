@@ -91,9 +91,9 @@ a {
   color: #212121;
 }
 
-section {
+/*section {
   outline: 2px solid tomato;
-}
+}*/
 
 /* Логотип-колір Studio footer */
 .footer .logo-studio {
@@ -252,7 +252,7 @@ section {
 
 /* Чим ми займаємося */
 .perform {
-  /*padding-bottom: 94px;*/
+  padding-bottom: 94px;
   margin-bottom: 0;
 }
 
@@ -260,7 +260,6 @@ section {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 94px;
   display: flex;
   justify-content: space-between;
 }
@@ -300,9 +299,7 @@ section {
   background-color: var(--second-bg-color);
   padding-bottom: 0;
   text-align: center;
-}
 
-.team .team-all {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -355,9 +352,6 @@ section {
 .clients {
   margin-top: 0;
   padding-bottom: 0;
-}
-
-.clients .clients-all {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -391,11 +385,11 @@ section {
 /*Розмітка footer*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .footer-general {
-  padding-top: 60px;
-  padding-bottom: 60px;
   padding-left: 0;
   margin-left: 0;
 

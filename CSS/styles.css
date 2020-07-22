@@ -450,6 +450,7 @@ strong {
 /* Приєднуйтесь */
 .footer .footer-uppercase {
   width: 270px;
+  margin-top: 12px;
   padding-left: 0;
   margin-left: 0;
 }
@@ -468,6 +469,7 @@ strong {
 }
 
 .footer .subscription {
+  margin-top: 12px;
   width: 570px;
   padding-left: 0;
   margin-left: 0;

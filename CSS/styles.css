@@ -362,10 +362,15 @@ a {
   padding-left: 0;
   display: flex;
   justify-content: space-between;
+  /*outline: 2px solid tomato;*/
 }
 
 .clients-list .item {
+  /*background-color: navy;*/
   width: 170px;
+
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
 .clients-list .item:nth-child(6n) {
@@ -376,6 +381,9 @@ a {
 .clients a:focus {
   background-color: var(--accent-color);
 }
+
+/*.clients a {
+}*/
 
 .clients h2 {
   margin-top: 0;

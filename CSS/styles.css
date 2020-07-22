@@ -205,15 +205,14 @@ a {
 
 /* Особливості */
 .features {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features-list {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 94px;
-  padding-bottom: 94px;
+
   padding-left: 0;
   display: flex;
   justify-content: space-between;

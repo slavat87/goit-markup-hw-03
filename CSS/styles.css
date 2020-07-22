@@ -380,11 +380,11 @@ a {
 
 /*Розмітка footer*/
 .footer {
-  padding-top: 60px;
   background-color: #2f303a;
 }
 
 .footer .footer-general {
+  padding-top: 60px;
   padding-left: 0;
   margin-left: 0;
 

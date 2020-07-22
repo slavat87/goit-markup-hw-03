@@ -438,6 +438,7 @@ strong {
 
 .email-subscription {
   display: flex;
+  justify-content: space-between;
 }
 
 .subscription span {
@@ -449,14 +450,13 @@ strong {
 
 /* Приєднуйтесь */
 .footer .footer-uppercase {
-  width: 270px;
+  width: 206px;
   margin-top: 12px;
   padding-left: 0;
   margin-left: 0;
 }
 
 .footer .uppercase {
-  margin-top: 74px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -468,11 +468,20 @@ strong {
   margin-bottom: 20px;
 }
 
+.footer-uppercase .social {
+  display: flex;
+}
+
 .footer .subscription {
   margin-top: 12px;
   width: 570px;
   padding-left: 0;
   margin-left: 0;
+}
+
+.email-subscription p {
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 16px;
 }
 
 /* button (базовий стиль)*/

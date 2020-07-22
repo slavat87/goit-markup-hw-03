@@ -53,8 +53,8 @@ h2 {
   padding-left: 15px;
   padding-right: 15px;
   /*обводка контейнера*/
-  /*outline: 2px solid tomato;
-}*/
+  /*outline: 2px solid tomato;*/
+}
 
 /*Забирає точки в всіх списках*/
 ul {
@@ -92,7 +92,7 @@ a {
 }
 
 section {
-    outline: 2px solid tomato;
+  outline: 2px solid tomato;
 }
 
 /* Логотип-колір Studio footer */

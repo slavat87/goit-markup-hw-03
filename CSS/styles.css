@@ -566,11 +566,14 @@ strong {
   padding-bottom: 32px;
 }*/
 
-.portfolio {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+.portfolio-all {
   padding-bottom: 94px;
+}
+
+.portfolio {
+  margin: 0;
+  padding: 0;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -579,6 +582,7 @@ strong {
 .portfolio .item {
   width: 370px;
   padding: 0;
+  margin: 0;
 }
 
 .portfolio .item:nth-child(3n) {
@@ -610,7 +614,7 @@ strong {
 
   margin-top: 0;
   margin-bottom: 0;
-  /*padding-bottom: 20px;*/
+  padding-bottom: 0;
 }
 
 .portfolio h4 {

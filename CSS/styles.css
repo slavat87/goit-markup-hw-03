@@ -513,6 +513,11 @@ strong {
 /*-- Сторінка PORTFOLIO --*/
 
 /* Портфоліо */
+.our-works {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+
 .portfolio-nav {
   font-weight: 500;
   font-size: 16px;
@@ -521,8 +526,8 @@ strong {
   /* перетворення в FLEX контейнер(стаютьв оду лінію)*/
   display: flex;
   margin-left: 0px;
-  padding-top: 93px;
-  padding-bottom: 50px;
+
+  margin-bottom: 50px;
   justify-content: center;
 }
 
@@ -562,10 +567,6 @@ strong {
   padding-top: 32px;
   padding-bottom: 32px;
 }*/
-
-.portfolio-all {
-  padding-bottom: 94px;
-}
 
 .portfolio {
   margin: 0;

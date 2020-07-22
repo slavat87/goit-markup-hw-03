@@ -299,11 +299,16 @@ a {
   text-align: center;
 }
 
+.team .team-all {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 94px;
+
   display: flex;
   justify-content: space-between;
 }
@@ -337,7 +342,6 @@ a {
 }
 
 .team h2 {
-  padding-top: 94px;
   padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -350,11 +354,15 @@ a {
   padding-bottom: 0;
 }
 
+.clients .clients-all {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients-list {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-bottom: 94px;
   display: flex;
   justify-content: space-between;
 }
@@ -373,7 +381,6 @@ a {
 }
 
 .clients h2 {
-  padding-top: 94px;
   margin-top: 0;
   margin-bottom: 50px;
 }

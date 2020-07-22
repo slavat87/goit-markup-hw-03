@@ -380,6 +380,7 @@ a {
 
 /*Розмітка footer*/
 .footer {
+  padding-top: 60px;
   background-color: #2f303a;
 }
 
@@ -396,9 +397,9 @@ a {
   margin-left: 0;
 }
 
-.footer .logo {
+/*.footer .logo {
   padding-top: 60px;
-}
+}*/
 
 .footer address {
   width: 231px;

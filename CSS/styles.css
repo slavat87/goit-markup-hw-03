@@ -524,14 +524,14 @@ strong {
   /* перетворення в FLEX контейнер(стаютьв оду лінію)*/
   display: flex;
   margin-left: 0px;
+  padding-top: 93px;
+  padding-bottom: 50px;
   justify-content: center;
 }
 
 .portfolio-nav .item {
   background-color: var(--second-bg-color);
   margin-right: 8px;
-  margin-top: 94px;
-  margin-bottom: 50px;
 
   /* перетворення в рядково-блочний ел*/
   display: inline-block;

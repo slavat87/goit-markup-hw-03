@@ -385,6 +385,7 @@ a {
 
 .footer .footer-general {
   padding-top: 60px;
+  padding-bottom: 60px;
   padding-left: 0;
   margin-left: 0;
 
@@ -397,39 +398,38 @@ a {
   margin-left: 0;
 }
 
-/*.footer .logo {
-  padding-top: 60px;
-}*/
+.footer .logo {
+  margin-bottom: 20px;
+}
 
-.footer address {
+/*footer address*/
+.footer-address {
   width: 231px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
 
+  padding-left: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-/* footer-address */
-.footer-address {
+/* address-street */
+.address-street {
   color: var(--second-text-color);
+  margin-bottom: 9px;
 }
 
 /* address-mail */
-.address-mail {
+.address-email {
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
 }
 
 .address-number {
-  margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
   flex-wrap: wrap;
-}
-
-.footer p {
-  margin-top: 20px;
-  margin-bottom: 0;
 }
 
 strong {

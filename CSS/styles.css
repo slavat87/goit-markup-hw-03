@@ -392,16 +392,22 @@ a {
 }
 
 .footer .logo-address {
-  width: 270px;
   padding-left: 0;
   margin-left: 0;
 }
 
-.addrress {
+.footer .logo {
+  padding-top: 60px;
+}
+
+.footer address {
+  width: 231px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
+
+  margin-top: 0;
 }
 
 /* footer-address */
@@ -409,13 +415,28 @@ a {
   color: var(--second-text-color);
 }
 
-/* footer-contacts */
-.footer-contacts {
+/* address-mail */
+.address-mail {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-number {
+  margin-top: 9px;
+  color: rgba(255, 255, 255, 0.6);
+  flex-wrap: wrap;
+}
+
+.footer p {
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 strong {
   color: var(--second-text-color);
+}
+
+.email-subscription {
+  display: flex;
 }
 
 .subscription span {
@@ -432,11 +453,17 @@ strong {
   margin-left: 0;
 }
 
-.uppercase {
+.footer .uppercase {
+  margin-top: 74px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
+}
+
+.footer-uppercase ul {
+  margin-bottom: 20px;
 }
 
 .footer .subscription {
